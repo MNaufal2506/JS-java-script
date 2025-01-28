@@ -1,30 +1,30 @@
 // While
 let n = 1;
-while (n <= 5){
+while (n <= 10){
     console.log(n);
     n += 1;
 }
 
 // do While
-let d = 3;
+let d = 10;
 do {
     console.log(d);
-    d++;
-} while (d <= 5);
+    d--;
+} while (d >= 1);
 
 // for 
-for (let a = 1; a <= 5; a++){
+for (let a = 2; a <= 20; a += 2 ){
     console.log(a);
 }
 
 // continue
-for (let t = 1; t <= 5; t++){
-    if(t === 4) continue; 
+for (let t = 1; t <= 10; t++){
+    if(t === 5) continue; 
     console.log(t);
 }
 
 // break
-for (let contoh = 3; contoh <= 8; contoh++){
-    if (contoh === 7) break; // 
+for (let contoh = 1; contoh <= 10; contoh++){
+    if (contoh === 6) break; // 
     console.log(contoh);
 }
