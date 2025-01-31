@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator.ADZ</title>
+    <link rel="stylesheet" href="./Calculator.css">
+</head>
+
+<body>
+    <div class="calculator">
+        <div id="hasil" class="display">0</div>
+        <div class="buttons">
+            <button class="btn" onclick="numberOne('1')">1</button>
+            <button class="btn" onclick="numberTwo('2')">2</button>
+            <button class="btn" onclick="numberThree('3')">3</button>
+            <button class="btn operator" onclick="kali('x')">x</button>
+            
+            <button class="btn" onclick="numberFour('4')">4</button>
+            <button class="btn" onclick="numberFive('5')">5</button>
+            <button class="btn" onclick="numberSix('6')">6</button>
+            <button class="btn operator" onclick="bagi(':')">:</button>
+            
+            <button class="btn" onclick="numberSeven('7')">7</button>
+            <button class="btn" onclick="numberEight ('8')">8</button>
+            <button class="btn" onclick="numberNine('9')">9</button>
+            <button class="btn operator" onclick="kurang('-')">-</button>
+            
+            <button class="btn" onclick="numberZero('0')">0</button>
+            <button class="btn" onclick="clearDisplay()">C</button>
+            <button class="btn" onclick="total()">=</button>
+            <button class="btn operator" onclick="tambah('+')">+</button>
+        </div>
+    </div>
+    <script src="./Calculator.js"></script>
+</body>
+</html>
