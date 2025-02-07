@@ -3,19 +3,24 @@ function calculateArea(length, width) {
     return length * width;
 }
 
+
+
+
 //! expresi function
-let calculateArea2 = function (params) {
-    console.log('calculateArea2');
+let calculateArea2 = function (length, width) {
+    return length * width;
 }
 
+
 //! arrow function
-let calculateArea3 = (params) => {
-    console.log('calculateArea3');  
+let calculateArea3 = (length, width) => {
+    return length * width;  
 }
 
 //* pemanggilan
-calculateArea2();
-calculateArea3();
+console.log(calculateArea(4, 3));
+console.log(calculateArea2(5, 4));
+console.log(calculateArea3(6, 5));
 
 
 
